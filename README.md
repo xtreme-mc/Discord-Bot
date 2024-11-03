@@ -18,14 +18,14 @@ A Discord bot built with Python and discord.py library. This bot includes variou
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/discord-bot.git
+   git clone https://github.com/xtreme-mc/discord-bot.git
    cd discord-bot
    ```
 
 2. **Create and activate a virtual environment**:
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate # On Windows use `venv\Scripts\activate`
    ```
 
 3. **Install the required packages**:
@@ -42,7 +42,7 @@ A Discord bot built with Python and discord.py library. This bot includes variou
 ## Usage
 1. **Run the bot**:
    ```sh
-   python bot.py
+   main.py
    ```
 
 2. **Commands**:
@@ -51,6 +51,7 @@ A Discord bot built with Python and discord.py library. This bot includes variou
    - `!kick <user>`: Kicks the specified user.
    - `!ban <user>`: Bans the specified user.
    - `!unban <user>`: Unbans the specified user.
+   - `!clear`: Clears  a specified number of messages.
 
 ## Contributing
 1. Fork the repository.
