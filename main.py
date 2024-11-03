@@ -2,7 +2,7 @@ import os
 import discord
 from discord.ext import commands
 from discord import app_commands
-from keep_alive import keep_alive
+from server import keep_alive
 from dotenv import load_dotenv
 
 intents = discord.Intents.default()
