@@ -31,7 +31,6 @@ soon...
    ```
 
 > [!WARNING]
-
 > Activating the virtual environment is crucial for isolating package installations. Skipping this step can cause conflicts with other Python projects.
 
 3. **Install the required packages**:
@@ -45,8 +44,7 @@ soon...
    DISCORD_TOKEN=your_token_here
    ```
 
-> [!IMPORTANT]
-
+> [!CAUTION]
 > Keep your .env file secure and never share your Discord token publicly.
 
 ## Usage
