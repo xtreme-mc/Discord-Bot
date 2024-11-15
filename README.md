@@ -4,9 +4,7 @@
 A Discord bot built with Python and discord.py library. This bot includes various features such as moderation tools, fun commands, and utility functions.
 
 ## Features
-- **Moderation**: Kick, ban, unban, and clear messages.
-- **Fun**: Random jokes, memes, and more.
-- **Utility**: Poll creation, reminders, etc.
+soon...
 
 ## Setup
 
@@ -47,7 +45,8 @@ A Discord bot built with Python and discord.py library. This bot includes variou
 
 2. **Commands**:
    - `!clear`: Clears  a specified number of messages.
-...and more soon.
+
+   ...and more soon.
 
 ## Contributing
 1. Fork the repository.
