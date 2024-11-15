@@ -1,7 +1,7 @@
 # Multipurpose Discord Bot
 
 ## Description
-A Discord bot built with Python and discord.py library. This bot includes various features such as moderation tools, fun commands, and utility functions.
+A Discord bot built with Python and discord.py library. This bot is still under development.
 
 ## Features
 soon...
