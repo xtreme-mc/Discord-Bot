@@ -1,0 +1,9 @@
+* text=auto
+
+*.md text encoding=utf-8
+*.txt text encoding=utf-8
+
+*.png binary
+*.jpg binary
+
+*.sh text eol=lf
