@@ -46,12 +46,8 @@ A Discord bot built with Python and discord.py library. This bot includes variou
    ```
 
 2. **Commands**:
-   - `!hello`: Greets the user.
-   - `!ping`: Checks the bot's latency.
-   - `!kick <user>`: Kicks the specified user.
-   - `!ban <user>`: Bans the specified user.
-   - `!unban <user>`: Unbans the specified user.
    - `!clear`: Clears  a specified number of messages.
+...and more soon.
 
 ## Contributing
 1. Fork the repository.
