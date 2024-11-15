@@ -36,4 +36,6 @@ async def clear(interaction: discord.Interaction, amount: int):
     await interaction.response.send_message(f"Deleted {len(deleted)} messages.", ephemeral=True)
 
 keep_alive()
+
+# Replace TOKEN with your bot token
 bot.run(TOKEN)
