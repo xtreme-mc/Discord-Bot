@@ -12,6 +12,10 @@ soon...
 - Python 3.6+
 - discord.py library
 
+> [!IMPORTANT]
+
+> Make sure you have Python 3.6 or higher installed. Using an older version may result in compatibility issues.
+
 ### Installation
 
 1. **Clone the repository**:
@@ -26,6 +30,10 @@ soon...
    source venv/bin/activate # On Windows use `venv\Scripts\activate`
    ```
 
+> [!WARNING]
+
+> Activating the virtual environment is crucial for isolating package installations. Skipping this step can cause conflicts with other Python projects.
+
 3. **Install the required packages**:
    ```sh
    pip install -r requirements.txt
@@ -37,11 +45,19 @@ soon...
    DISCORD_TOKEN=your_token_here
    ```
 
+> [!IMPORTANT]
+
+> Keep your .env file secure and never share your Discord token publicly.
+
 ## Usage
 1. **Run the bot**:
    ```sh
    main.py
    ```
+
+> [!NOTE]
+
+> Ensure your .env file is properly configured before running the bot.
 
 2. **Commands**:
    - `!clear`: Clears  a specified number of messages.
