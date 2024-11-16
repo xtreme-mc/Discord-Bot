@@ -4,7 +4,7 @@
 A Discord bot built with Python and discord.py library. This bot is still under development.
 
 ## Features
-soon...
+Soon...
 
 ## Setup
 
