@@ -32,10 +32,22 @@ async def clear(interaction: discord.Interaction, amount: int):
         await interaction.response.send_message("Please specify a positive number of messages to delete.", ephemeral=True)
         return
 
-    deleted = await interaction.channel.purge(limit=amount)
-    await interaction.response.send_message(f"Deleted {len(deleted)} messages.", ephemeral=True)
+    try:
+        deleted = await interaction.channel.purge(limit=amount)
+        await interaction.response.send_message(f"Deleted {len(deleted)} messages.", ephemeral=True)
+    except discord.Forbidden:
+        await interaction.response.send_message("I don't have permission to delete messages.", ephemeral=True)
+    except discord.HTTPException as e:
+        await interaction.response.send_message(f"An error occurred: {e.text}", ephemeral=True)
+
+@bot.tree.command(name="ping", description="Check the bot's latency.")
+async def ping(interaction: discord.Interaction):
+    await interaction.response.send_message(f"Ping: {bot.latency * 1000}ms", ephemeral=True)
 
 keep_alive()
 
 # Replace TOKEN with your bot token
-bot.run(TOKEN)
+try:
+    bot.run(TOKEN)
+except discord.HTTPException as e:
+    print(f"An error occurred: {e.text}")
